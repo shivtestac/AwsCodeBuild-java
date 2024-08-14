@@ -1,6 +1,4 @@
 #!/bin/bash
 # Stop existing application
-pkill -f your-app.jar
-
+mkdir /var/www/ok/
 # Start the new application
-java -jar /opt/app/your-app.jar &
